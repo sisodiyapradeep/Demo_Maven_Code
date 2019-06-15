@@ -17,6 +17,7 @@ phases:
 artifacts:
   files:
     - '**/*'
+base-directory: 'target/demo-0.0.1-SNAPSHOT'
   
     
 
