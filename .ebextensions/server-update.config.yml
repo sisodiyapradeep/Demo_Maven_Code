@@ -1,4 +1,0 @@
-container_commands:
-  copy_file:
-    command: sudo cp /var/lib/tomcat8/webapps/ROOT/* /var/lib/tomcat8/webapps/
-    leader_only: true
