@@ -14,13 +14,13 @@ phases:
   post_build:
     commands:
       - mvn package
-      - mv target/demo-0.0.1-SNAPSHOT.war ROOT.war
-      #- mv target/demo-0.0.1-SNAPSHOT.war demo-0.0.1-SNAPSHOT.war
+      #- mv target/demo-0.0.1-SNAPSHOT.war ROOT.war
+      - mv target/demo-0.0.1-SNAPSHOT.war demo-0.0.1-SNAPSHOT.war
 artifacts:
   files:
-    - ROOT.war
-    #- demo-0.0.1-SNAPSHOT.war
-    #- .ebextensions/**/*
+    #- ROOT.war
+    - demo-0.0.1-SNAPSHOT.war
+    - .ebextensions/**/*
   #base-directory: 'target/demo-0.0.1-SNAPSHOT'
 
 
