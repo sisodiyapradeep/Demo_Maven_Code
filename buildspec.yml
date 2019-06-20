@@ -19,7 +19,7 @@ phases:
 artifacts:
   files:
     - '/**/*'
-    - .ebextensions/**/*
+    #- .ebextensions/**/*
   base-directory: 'target/demo-0.0.1-SNAPSHOT'
 
 
