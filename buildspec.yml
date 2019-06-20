@@ -15,11 +15,11 @@ phases:
     commands:
       - mvn package
       - mv target/demo-0.0.1-SNAPSHOT.war demo-0.0.1-SNAPSHOT.war
-      #- zip -ur demo-0.0.1-SNAPSHOT.war .ebextensions
+      - zip -ur demo-0.0.1-SNAPSHOT.war .ebextensions
 artifacts:
   files:
     - demo-0.0.1-SNAPSHOT.war
-    - .ebextensions/**/*
+    #- .ebextensions/**/*
   #base-directory: 'target/demo-0.0.1-SNAPSHOT'
 
 
