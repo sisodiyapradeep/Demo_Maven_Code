@@ -18,6 +18,7 @@ phases:
 artifacts:
   files:
     - demo-0.0.1-SNAPSHOT.war
+    discard-paths: yes
     - .ebextensions/**/*
 
   
